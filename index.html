@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/52affb2966.js" crossorigin="anonymous"></script>
+
+    <title>CodZer</title>
+  </head>
+
+  <style type="text/css">
+
+    header{
+      background-color: #595959;
+      /*box-shadow:10px 10px 8px #949BA6;*/ /*meter no hover*/
+    }
+    body{
+      background-color: #262626;
+      margin: 0;
+      padding: 0;
+      display: block;
+      font-family: Playfair Display;
+      box-shadow:10px 10px 8px #949BA6;
+    }
+    footer{ 
+      margin-left: auto;
+      margin-right: auto;  
+    }
+    P { text-align: center; margin: 0; padding: 0; }
+    H2 { text-align: center;margin: 0; padding: 0; }
+
+    h3{text-align: center; color: #D9D9D9; }
+    img{
+        margin: 0;
+        padding: 0;
+        content: center;
+    }
+    .nome_logo{ font-size: 120px; color: #D9D9D9;}
+    .frames{  
+              margin: 0 2px;
+              height: 100px;
+              border-radius: 0;  
+            }
+    .logo{
+      background-color: #262626;
+    }
+    .xadou{
+      background-color: #595959; 
+      box-shadow:1px 1px 60px 15px#949BA6;
+    }
+    .c_area{  margin: auto; background-color: #fff; border-width: 6px; border-style: solid; border-color: #262626;}
+    .tarea{  color: #F2B705; font-size: 120%;}
+    .ipng{  width: 40%; margin: auto; }
+
+    .navlogo{
+      display: inline-block;
+      height: 80px;
+      box-sizing: content-box;
+    }
+    
+    .navlogo img{
+      height: 100%;
+    }
+
+    .menu{
+      display: inline-block;
+      float: right;
+      padding-top: 25px;
+    }
+    .menu ul{
+      margin: 0;
+      padding: 0;
+    }
+    .menu li{
+      display: inline-block;
+    }
+
+    .menu li:hover{
+      background-color: #e1e1e1;
+    }
+
+    .menu a{
+      text-decoration: none;
+      color: #F2B705;
+      font-size: 1.5em;
+      padding: 25px;
+      box-sizing: border-box;
+    }
+
+    .bot{
+      display: inline-block;
+      float: right;
+      margin: 25px;
+      display: none;
+    }
+
+    @media( max-width: 636px ){
+      .bot{
+        display: inline-block;
+      }
+      .menu{
+        display: none;
+      }
+    }
+  </style>
+
+
+  <header  class="container border-top" >
+      <div class="navlogo card" > 
+        <a href="#">
+          <img src="html_5-r.png" type="image/png">
+        </a>
+      </div>
+
+      
+        <button class="btn btn-light bot"> menu </button>
+     
+      <nav class="col menu">
+        <ul>
+          <li><a href="#"> um </a></li>
+          <li><a href="#"> dois </a></li>
+          <li><a href="#"> tres </a></li>
+          <li><a href="#"> quatro </a></li>
+        </ul>
+      </nav>
+  </header>
+
+
+
+  <body>
+
+    <br>
+    <div class="container logo">
+    <div class="col-sm-4 container card xadou">
+        <img src="Codzerlogo.png" type="image/png" >
+      </div>
+        <br><br><br>
+      <h3>Desenvolvimento de sistemas web</h3>
+    </div>
+
+    <br>
+    <div class="container " style="background-color: #262626">
+      <h2 class="nome_logo"> ÁREAS </h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 tarea"> Frontend</div>
+          <div class="col card c_area">
+            <img class="col " src="html_5-r.png" type="image/png" style="width: 50%; margin: auto;">
+          </div>
+          <div class="col card c_area">
+            <img class="col " src="css3logo.png" type="image/png" style="width: 50%; margin: auto; ">
+          </div>
+          <div class="col card c_area">
+            <img class="col " src="javalogo.png" type="image/png" style="width: 50%; margin: auto; ">
+          </div>
+          <div class="col card c_area">
+            <img src="phplogo.png" type="image/png" style="width: 50%; margin: auto; ">
+          </div>
+        </div>
+      </div>
+<br>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 tarea"> Frameworks PHP </div>
+          <div class="col card c_area" >
+            <img class="col ipng" src="laravel.png" type="image/png">
+          </div>
+          <div class="col card c_area">
+            <img class="col ipng" src="codeigniter.png" type="image/png" >
+          </div>
+         <div class="col card c_area">
+            <img class="col ipng" src="symfony.png" type="image/png">
+          </div>
+        </div>
+      </div>
+<br>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 tarea">Database</div>
+          <div class="col card c_area">
+            <img class="col ipng" src="postgres.png" type="image/png" >
+          </div>
+          <div class="col card c_area" >
+            <img class="col ipng" src="mysql.png" type="image/png" >
+          </div>
+          <div class="col card c_area" >
+            <img class="col ipng" src="mongo.png" type="image/png" >
+          </div>
+        </div>
+      </div>
+<br>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 tarea">Fremeworks JS</div>
+          <div class="col card c_area" >
+            <img class="col ipng" src="vue.png" type="image/png">
+          </div>
+          <div class="col card c_area" >
+            <img class="col ipng" src="react.png" type="image/png">
+          </div>
+          <div class="col card c_area">
+            <img class="col ipng" src="angular.png" type="image/png">
+          </div>
+        </div>
+      </div>
+<br>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 tarea">Linguagem baixo/alto nível</div>
+            <div class="col card c_area" >
+              <img class="col ipng" src="c.png" type="image/png">
+            </div>
+            <div class="col card c_area" >
+              <img class="col ipng" src="cpp.png" type="image/png">
+            </div>
+              <div class="col card c_area">
+            <img class="col ipng" src="csp.png" type="image/png">
+          </div>
+        </div>
+      </div>
+<br>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+
+<br>
+
+  <footer class="container border-top">
+    <p><h2 style="color: #BFBFBF;box-shadow:1px 1px 60px 1px #949BA6;">© Desenvolvido por CodZer</h2></p>
+  </footer>
+
+</html>
